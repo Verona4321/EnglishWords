@@ -4,33 +4,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4CAF50; /* Цвет фона */
+    background-color: #52ACE4; 
     padding: 20px;
-    color: white; /* Цвет текста */
+    color: white; 
+    text-transform: uppercase;
 }
 
 .logo h1 {
-    margin: 0; /* Убираем отступы */
-    font-size: 24px; /* Размер шрифта логотипа */
+    margin: 0; 
+    font-size: 24px; 
 }
 
-.nav ul {
+.navigation ul {
     list-style-type: none; /* Убираем маркеры списка */
     margin: 0; /* Убираем отступы */
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выстраиваем элементы в ряд */
 }
 
-.nav li {
+.navigation li {
     margin-left: 20px; /* Отступы между ссылками */
 }
 
-.nav a {
+.navigation a {
     color: white; /* Цвет текста ссылок */
     text-decoration: none; /* Убираем подчеркивание */
     font-weight: bold; /* Жирный шрифт */
 }
 
-.nav a:hover {
+.navigation a:hover {
     text-decoration: underline; /* Подчеркивание при наведении */
 }

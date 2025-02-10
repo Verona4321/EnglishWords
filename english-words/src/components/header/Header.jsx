@@ -6,13 +6,12 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <h1>Изучаем английские слова</h1>
+                <h1>FLASHCARDS</h1>
             </div>
             <nav className="navigation">
-                <img src="URL_К_ВАШЕМУ_ИЗОБРАЖЕНИЮ" alt="Логотип" />
                 <ul>
                     <li>
-                        <a href="#home">Главная</a>
+                        <div><a href="#home">Список слов</a></div>
                     </li>
                     <li>
                         <a href="#about">О нас</a>
